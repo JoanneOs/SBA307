@@ -1,0 +1,153 @@
+/* Resetting basic styles for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Smooth, modern font */
+    line-height: 1.7; /* Clear and readable line spacing */
+    background-color: #f9f9f9; /* Light background for a clean feel */
+    color: #444; /* Soft dark text for comfort */
+    padding-top: 20px; /* Extra space at the top */
+}
+
+/* Hero Section: Making it big, bold, and welcoming */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2f8f85; /* Fresh, calming green */
+    color: white;
+    padding: 40px 20px;
+    border-bottom: 8px solid #007a63; /* Underline with a darker shade */
+}
+
+/* Hero content: Keeping it neat and easy to read */
+.hero-content {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 2.8rem; /* Big and bold for the main message */
+    margin-bottom: 15px;
+    color: #ffcc00; /* Fun yellow to stand out */
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+    line-height: 1.6;
+    color: #f0f0f0; /* Lightened text for contrast */
+}
+
+/* CTA Button styles */
+.cta-btn {
+    background-color: #ffcc00; /* Bright and energetic yellow */
+    color: #2f8f85; /* Green text for contrast */
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for a friendlier look */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Button hover effect */
+.cta-btn:hover {
+    background-color: #e0b300; /* Darker yellow for hover effect */
+}
+
+/* Hero image styles (right side) */
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded edges for the image */
+}
+
+/* Features Section: Keeping it simple and clean */
+.features {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #2f8f85; /* Matching the hero section color */
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature h3 {
+    font-size: 1.7rem;
+    color: #ffcc00; /* Fun yellow color for each feature heading */
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Social Proof Section: Building trust with simple testimonials */
+.social-proof {
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.social-proof h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #2f8f85;
+}
+
+.testimonials p {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.customer-logos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.customer-logos img {
+    width: 120px;
+    height: auto;
+}
+
+/* Final CTA Section: Bold and inviting call to action */
+.cta-final {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #2f8f85;
+    color: white;
+}
+
+.cta-final h2 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    color: #ffcc00; /* Yellow text for the final push */
+}
+
+.cta-final .cta-btn {
+    margin: 15px;
+    background-color: #ffcc00;
+    color: #2f8f85;
+}
+
+.cta-final .cta-btn:hover {
+    background-color: #e0b300;
+}

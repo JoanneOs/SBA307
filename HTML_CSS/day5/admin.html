@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Page metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triway Transportation LLC - Manager/Dispatcher Dashboard</title>
+    
+    <!-- Bootstrap CSS for layout and design -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar (Navigation bar at the top) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Logo or Brand Name in Navbar -->
+            <a class="navbar-brand" href="#">Triway Transportation LLC</a>
+            
+            <!-- Navbar items (links) -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Routes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Truck Status</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Amazon Loads</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main content area -->
+    <div class="container my-4">
+        <!-- Page header with a title and short description -->
+        <header class="text-center">
+            <h1>Manager/Dispatcher Dashboard</h1>
+            <p class="lead">Manage your drivers, routes, and track Amazon loads.</p>
+        </header>
+
+        <!-- Row with multiple sections: Dashboard, Routes, and Truck Status -->
+        <div class="row">
+            <!-- Dashboard Section -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h3>Dashboard</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Quick overview of your fleet and tasks.</p>
+                        <!-- Button to navigate to the Dashboard -->
+                        <button class="btn btn-info">View Dashboard</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Routes Section -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <h3>Routes</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Manage and assign routes to drivers.</p>
+                        <!-- Button to navigate to Routes -->
+                        <button class="btn btn-warning">View Routes</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Truck Status Section -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header bg-secondary text-white">
+                        <h3>Truck Status</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Check and update the status of each truck.</p>
+                        <!-- Button to check truck status -->
+                        <button class="btn btn-dark">Check Status</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row with Amazon-related sections: Amazon Load Details and Amazon Loads -->
+        <div class="row">
+            <!-- Amazon Load Details Section -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-header bg-dark text-white">
+                        <h3>Amazon Load Details</h3>
+                    </div>
+                    <div class="card-body">
+                        <h5><strong>Current Amazon Load</strong></h5>
+                        <p><strong>Load Type:</strong> Fulfillment Center to Delivery Station</p>
+                        <p><strong>Delivery Window:</strong> 12:00 PM - 5:00 PM</p>
+                        <p><strong>Amazon Load ID:</strong> <span class="badge bg-secondary">#12345</span></p>
+                        <p><strong>Drop-off Location:</strong> 4567 Delivery Way, Houston, TX</p>
+                        <p><strong>Instructions:</strong> Ensure all packages are delivered in the specified time window. Verify customer addresses before delivery.</p>
+                        <!-- Buttons for canceling or confirming the load -->
+                        <button class="btn btn-danger">Cancel Load</button>
+                        <button class="btn btn-success">Confirm Load Delivered</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Amazon Loads Section -->
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-header bg-warning text-dark">
+                        <h3>Amazon Loads</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>View all available Amazon loads and schedule deliveries.</p>
+                        <!-- Button to view all available Amazon loads -->
+                        <button class="btn btn-primary">View Amazon Loads</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row for the Amazon Relay link (external link to Amazon Relay platform) -->
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Amazon Relay Link</h5>
+                        <p class="card-text">For managing Amazon loads, click the link below to access your Amazon Relay account:</p>
+                        <!-- Button to open Amazon Relay link in a new tab -->
+                        <a href="https://relay.amazon.com/" target="_blank" class="btn btn-primary">Go to Amazon Relay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap CSS has built-in support for responsive design, so no need for extra JavaScript for interactive features like dropdowns or collapsible elements. -->
+</body>
+</html>

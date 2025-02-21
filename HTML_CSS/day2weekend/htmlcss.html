@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Practice Labs</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+</head>
+<body>
+
+    <!-- Main header -->
+    <header>
+        <h1>HTML/CSS Practice Labs</h1>
+    </header>
+
+    <section>
+        <h2>1. Create a Simple HTML Page</h2>
+        <p>Write the HTML code for a simple webpage with a title, header, and a paragraph.</p>
+        <pre>
+<!-- Example: -->
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;title&gt;My Simple Page&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Welcome to My Page&lt;/h1&gt;
+        &lt;p&gt;This is a simple webpage created for practice!&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+    </section>
+
+    <section>
+        <h2>2. Create an HTML Table</h2>
+        <p>Build a table with at least three rows and two columns, and use `<th>` for the header row.</p>
+        <pre>
+<!-- Example: -->
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Header 1&lt;/th&gt;
+        &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Row 1, Cell 1&lt;/td&gt;
+        &lt;td&gt;Row 1, Cell 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Row 2, Cell 1&lt;/td&gt;
+        &lt;td&gt;Row 2, Cell 2&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+        </pre>
+    </section>
+
+    <section>
+        <h2>3. Create a Simple HTML Form</h2>
+        <p>Write the HTML code for a basic form with a text input field and a submit button.</p>
+        <pre>
+<!-- Example: -->
+&lt;form action="submit_form.php" method="post"&gt;
+    &lt;label for="name"&gt;Name:&lt;/label&gt;
+    &lt;input type="text" id="name" name="name"&gt;
+    &lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;
+        </pre>
+    </section>
+
+    <section>
+        <h2>4. Apply CSS Styling to a Paragraph</h2>
+        <p>Write a simple CSS rule to change the color of a paragraph's text to blue and the background to light yellow.</p>
+        <pre>
+<!-- Example: -->
+&lt;p style="color: blue; background-color: lightyellow;"&gt;This is a styled paragraph!&lt;/p&gt;
+        </pre>
+    </section>
+
+    <section>
+        <h2>5. Create a CSS Class Selector</h2>
+        <p>Define a class `.box` in your CSS to create a box with a 200px width, 20px padding, and a red border. Apply the class to a `<div>` element in your HTML.</p>
+        <pre>
+<!-- HTML -->
+&lt;div class="box"&gt;This is a box with a red border!&lt;/div&gt;
+
+<!-- CSS -->
+.box {
+    width: 200px;
+    padding: 20px;
+    border: 2px solid red;
+}
+        </pre>
+    </section>
+
+    <section>
+        <h2>6. Create a Navigation Bar Using CSS</h2>
+        <p>Build a simple navigation bar with links and style it using CSS to display the links horizontally with spacing.</p>
+        <pre>
+<!-- HTML -->
+&lt;nav&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+
+<!-- CSS -->
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+        </pre>
+    </section>
+
+</body>
+</html>
